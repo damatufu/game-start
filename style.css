@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'tesouro'; /* Give it a name */
-  src: url('./treasure_map/TreasureMapDeadhand.ttf') format('woff2'), /* Modern format */
-       url('./treasure_map/TreasureMapDeadhand.ttf') format('woff');   /* Fallback */
+  src: url('./treasure_map/MapadoTesouro.otf') format('opentype'), /* Modern format */
   font-weight: normal;
   font-style: normal
 }
@@ -14,7 +13,6 @@
 
 body{
   
-    /* background-color:rgb(64, 0, 0) */
     background-image: url("./imagens/backgroung-map_black.png");
     background-size: cover;
     background-position: center;
@@ -47,14 +45,20 @@ img{
 }
 
 h1{
+  font-size: 150%;
   margin: 5%;
   text-align: left;
   width: 90%;
+  color:rgb(226, 226, 226);
+  font-weight: bold;
 }
 
 a{
   font-size: 150%;
   font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: rgb(212, 24, 24);
   color:rgb(226, 226, 226);
 }
 
