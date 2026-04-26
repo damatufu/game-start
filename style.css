@@ -45,21 +45,22 @@ img{
 }
 
 h1{
-  font-size: 150%;
+  font-size: 500%;
   margin: 5%;
   text-align: left;
   width: 90%;
   color:rgb(226, 226, 226);
   font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-decoration-color: rgb(226, 226, 226);
 }
 
 a{
-  font-size: 150%;
   font-weight: bold;
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-decoration-color: rgb(212, 24, 24);
-  color:rgb(226, 226, 226);
+  color:rgb(0, 0, 0);
 }
 
 h6{
